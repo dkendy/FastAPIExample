@@ -16,4 +16,5 @@ docs/_templates
 bundles/
 .hg/
 .git/
-.vscode/ 
+.vscode/
+__pycache__/
