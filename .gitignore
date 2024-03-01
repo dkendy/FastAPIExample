@@ -16,4 +16,4 @@ docs/_templates
 bundles/
 .hg/
 .git/
-.vscode/
+.vscode/ 

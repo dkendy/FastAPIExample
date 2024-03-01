@@ -1,0 +1,15 @@
+version: '3'
+services:
+  fastapi:
+    image: api/modelfastapi
+    build: 
+      dockerfile: src/fastapi.dockerfile
+    ports:
+      - "8090:80"
+  
+  flask:
+    image: api/modelflask
+    build: 
+      dockerfile: src/flask.dockerfile
+    ports:
+      - "8091:5000"
